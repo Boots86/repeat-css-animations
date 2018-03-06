@@ -86,9 +86,9 @@ The tutorial contains the following basic HTML markup.
 
 ```
 
-## CSS
+## SCSS
 
-All required CSS is contained with repeat-css-animations.css
+All required SCSS is contained with repeat-css-animation.scss
 
 
 ## External Resources
