@@ -3,9 +3,7 @@
   overflow: hidden;
   background: linear-gradient(358deg,#ffea02 0,#ff8d02 78%,#ff8d02 80%,#ff8d02 100%);
 }
-.text-white {
-  color: #fff !important;
-}
+
 .hgroup-400 {
   height: 400px;
   @media screen and (max-width: 768px) {
@@ -97,9 +95,4 @@
   .dan-in-space-shup {
     right: -200px;
   }
-}
-@media screen and (max-width: 576px) {
-  .hgroup-500 {
-	    height: auto;
-	  }
 }
