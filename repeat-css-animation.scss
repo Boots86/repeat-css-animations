@@ -1,4 +1,4 @@
-/* Global */
+// Global
 .orange-yellow {
   overflow: hidden;
   background: linear-gradient(358deg,#ffea02 0,#ff8d02 78%,#ff8d02 80%,#ff8d02 100%);
@@ -6,8 +6,25 @@
 .text-white {
   color: #fff !important;
 }
-.hgroup-500 {
-    height: 500px;
+.hgroup-400 {
+  height: 400px;
+  @media screen and (max-width: 768px) {
+      min-height: 300px;
+    }
+}
+.orange {
+    background-color: #ff910e;
+    border-color: #ff910e;
+    color: #fff;
+}
+.btn {
+    text-transform: uppercase;
+}
+.btn-lg {
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 2rem;
 }
 
 
@@ -59,6 +76,8 @@
 .create-monkey {
 	bottom: 0;
 	right: 0;
+  position: absolute;
+  width: 100%;
 }
 .moon-base {
   background: url(/_/images/moon-base.png);
