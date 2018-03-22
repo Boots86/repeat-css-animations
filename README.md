@@ -1,4 +1,4 @@
-# repeate-css-animations
+# repeat-css-animations
 
 
   		  
